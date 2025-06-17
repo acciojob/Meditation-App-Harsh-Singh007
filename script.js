@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const video = document.getElementById("meditationVideo");
-const audio = new Audio("Sounds/beach.mp3");
+const audio = document.querySelector('.meditation-audio');
 const playBtn = document.querySelector(".play");
 const timeDisplay = document.querySelector(".time-display");
 
